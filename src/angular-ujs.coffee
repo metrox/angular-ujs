@@ -1,5 +1,3 @@
-angular.module "ujs", []
-
 angular.module("ujs").directive "method", ["$http", ($http) ->
   restrict: "A"
   link: ($scope, element, attrs, controller) ->

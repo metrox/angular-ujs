@@ -1,6 +1,4 @@
 (function() {
-  angular.module("ujs", []);
-
   angular.module("ujs").directive("method", [
     "$http", function($http) {
       return {
